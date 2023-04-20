@@ -6,7 +6,7 @@
 
 This repository is the official implementation of **KANO**, which is model proposed in a paper: **Knowledge graph-enhanced molecular contrastive learning with functional prompt**. 
 
-<!-- 
+<!--  
 # Contributor
 Yin Fang, Qiang Zhang, Ningyu Zhang, Zhuo Chen, Xiang Zhuang, Xin Shao, Xiaohui Fan, Huajun Chen -->
 
