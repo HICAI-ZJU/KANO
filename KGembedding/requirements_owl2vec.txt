@@ -1,0 +1,8 @@
+#Jupyter notebook
+jupyter==1.0.0
+rdflib>=4.2.2
+pyparsing==2.4.7
+gensim==4.2.0
+scikit-learn~=0.24.2
+nltk~=3.5
+OWLready2>=0.25

@@ -1,0 +1,14 @@
+python train.py \
+    --data_path ./data/bbbp.csv \
+    --dataset_type classification \
+    --epochs 100 \
+    --num_runs 3 \
+    --gpu 0 \
+    --batch_size 256 \
+    --seed 51 \
+    --init_lr 1e-4  \
+    --split_type 'scaffold_balanced' \
+    --step functional_prompt \
+    --exp_name finetune \
+    --exp_id bbbp \
+    --checkpoint_path "./dumped/pretrained_graph_encoder/original_CMPN_0623_1350_14000th_epoch.pkl"
