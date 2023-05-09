@@ -164,7 +164,7 @@ We also support specifying a dataset as the input for the train/val/test sets by
 
 # 🫱🏻‍🫲🏾 Acknowledgements
 Thanks for the following released code bases:
->[chemprop](https://github.com/chemprop/chemprop), [torchlight](https://github.com/RamonYeung/torchlight), [RDKit](https://github.com/rdkit/rdkit)
+>[chemprop](https://github.com/chemprop/chemprop), [torchlight](https://github.com/RamonYeung/torchlight), [RDKit](https://github.com/rdkit/rdkit), [KCL](https://github.com/ZJU-Fangyin/KCL)
 
 
 # About
@@ -172,7 +172,17 @@ Should you have any questions, please feel free to contact Miss Yin Fang at fang
 
 
 # References
-The paper has just been accepted for publication in Nature Machine Intelligence, more details will be updated continuously.
+If you use or extend our work, please cite the paper as follows:
 
+```bibtex
+@article{fang2023knowledge,
+  title={Knowledge graph-enhanced molecular contrastive learning with functional prompt},
+  author={Fang, Yin and Zhang, Qiang and Zhang, Ningyu and Chen, Zhuo and Zhuang, Xiang and Shao, Xin and Fan, Xiaohui and Chen, Huajun},
+  journal={Nature Machine Intelligence},
+  pages={1--12},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+```
 
 
