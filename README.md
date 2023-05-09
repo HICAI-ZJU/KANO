@@ -77,8 +77,8 @@ This project mainly contains the following parts.
 # 🚀 Quick start
 
 If you want to use our pre-trained model directly for molecular property prediction, please run the following command:
-```
-$ bash finetune.sh
+```sh
+>> bash finetune.sh
 ```
 
 | Parameter | Description | Default Value |
@@ -100,8 +100,8 @@ $ bash finetune.sh
 
 
 Note that if you change the `data_path`, don't forget to change the corresponding `metric`, `dataset_type` and `split_type`! For example:
-```
-python train.py \
+```sh
+>> python train.py \
     --data_path ./data/qm7.csv \
     --metric 'mae' \
     --dataset_type regression \
@@ -128,8 +128,8 @@ After obtaining the embeddings of ElementKG, we need to preprocess it in order t
 ### Contrastive-based pre-training
 We collect 250K unlabeled molecules sampled from the ZINC 15 datasets to pre-train KANO. The pre-training data can be found in [`data/zinc15_250K.csv`](data/zinc15_250K.csv). If you want to pre-train the model with the pre-training data, please run:
 
-```
-$ python pretrain.py --exp_name 'pre-train' --exp_id 1 --step pretrain
+```sh
+>> python pretrain.py --exp_name 'pre-train' --exp_id 1 --step pretrain
 ```
 
 | Parameter | Description | Default Value |
