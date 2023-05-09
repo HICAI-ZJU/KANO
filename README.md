@@ -31,15 +31,15 @@ We propose a **K**nowledge graph-enhanced molecular contr**A**stive learning wit
 
 To run our code, please install dependency packages.
 ```
-python         3.7
-torch          1.13.1
-rdkit          2018.09.3
-numpy          1.20.3
-gensim         4.2.0
-nltk           3.4.5
-owl2vec-star   0.2.1
-Owlready2      0.37
-torch-scatter  2.0.9
+python          3.7
+torch           1.13.1
+rdkit           2018.09.3
+numpy           1.20.3
+gensim          4.2.0
+nltk            3.4.5
+owl2vec-star    0.2.1
+Owlready2       0.37
+torch-scatter   2.0.9
 ```
 
 # 📚 Overview
