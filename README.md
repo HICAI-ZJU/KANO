@@ -101,7 +101,7 @@ If you want to use our pre-trained model directly for molecular property predict
 
 Note that if you change the `data_path`, don't forget to change the corresponding `metric`, `dataset_type` and `split_type`! For example:
 ```sh
-python train.py \
+>> python train.py \
     --data_path ./data/qm7.csv \
     --metric 'mae' \
     --dataset_type regression \
