@@ -109,7 +109,7 @@ class CMPNEncoder(nn.Module):
             
         else:
             # Input
-            input_atom = self.W_i_atom_new(f_atoms)  # num_atoms x hidden_size
+            input_atom = self.W_i_atom(f_atoms)  # num_atoms x hidden_size
         
         input_atom = self.act_func(input_atom)
         message_atom = input_atom.clone()
