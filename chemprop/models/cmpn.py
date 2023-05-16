@@ -71,7 +71,6 @@ class CMPNEncoder(nn.Module):
         fg_index = [i*13 for i in range(mol_graph.n_mols)]
         fg_indxs = [[i]*133 for i in fg_index]
         fg_indxs = torch.LongTensor(fg_indxs).cuda()
-        # a2a = mol_graph.get_a2a().cuda()
 
         if self.args.step == 'functional_prompt':
             # make sure the prompt exists
@@ -105,6 +104,10 @@ class CMPNEncoder(nn.Module):
             fg_out = torch.zeros(1, 133).cuda()
             fg_out = torch.cat((fg_out, fg_hiddens_atom), 0)
             f_atoms = torch.cat((fg_out, f_atoms), 1)
+            # Input
+            input_atom = self.W_i_atom_new(f_atoms)  # num_atoms x hidden_size
+            
+        else:
             # Input
             input_atom = self.W_i_atom_new(f_atoms)  # num_atoms x hidden_size
         
