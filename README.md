@@ -11,6 +11,11 @@ This repository is the official implementation of **KANO**, which is model propo
 Yin Fang, Qiang Zhang, Ningyu Zhang, Zhuo Chen, Xiang Zhuang, Xin Shao, Xiaohui Fan, Huajun Chen -->
 
 
+# 🔔 News 
+
+- **2023-6 We release [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions), a large-scale biomolecules instruction dataset for large language models.**
+
+
 # Brief introduction
 We propose a **K**nowledge graph-enhanced molecular contr**A**stive learning with fu**N**ctional pr**O**mpt (**KANO**), exploiting fundamental domain knowledge in both pre-training and fine-tuning.
 
