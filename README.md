@@ -6,14 +6,13 @@
 
 This repository is the official implementation of **KANO**, which is model proposed in a paper: [**Knowledge graph-enhanced molecular contrastive learning with functional prompt**](https://www.nature.com/articles/s42256-023-00654-0). 
 
-<!--  
-# Contributor
-Yin Fang, Qiang Zhang, Ningyu Zhang, Zhuo Chen, Xiang Zhuang, Xin Shao, Xiaohui Fan, Huajun Chen -->
+
 
 
 # 🔔 News 
 
-- **2023-6 We release [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions), a large-scale biomolecules instruction dataset for large language models.**
+- **2023-6 We release [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions), a large-scale biomolecule instruction dataset for large language models.**
+- **2023-3 We propose [MolGen](https://github.com/zjunlp/MolGen), a robust pre-trained molecular generative model.**
 
 
 # Brief introduction
