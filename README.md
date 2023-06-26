@@ -12,7 +12,7 @@ This repository is the official implementation of **KANO**, which is model propo
 # 🔔 News 
 
 - **2023-6 We release [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions), a large-scale biomolecule instruction dataset for large language models.**
-- **2023-3 We propose [MolGen](https://github.com/zjunlp/MolGen), a robust pre-trained molecular generative model.**
+- **2023-3 We propose [MolGen](https://github.com/zjunlp/MolGen), a robust pre-trained molecular generative model with self-feedback.**
 
 
 # Brief introduction
