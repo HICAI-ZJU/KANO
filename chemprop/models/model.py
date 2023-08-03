@@ -109,7 +109,7 @@ class MoleculeModel(nn.Module):
                 if not self.training:
                     output = self.multiclass_softmax(output) # to get probabilities during evaluation, but not during training as we're using CrossEntropyLoss
         else:
-            output = self.encoder(*input)
+            output = self.ffn(self.encoder(*input))
 
         return output
 
