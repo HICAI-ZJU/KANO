@@ -14,7 +14,7 @@ from chemprop.train import make_predictions
 
 if __name__ == '__main__':
     args = parse_train_args()
-    args.checkpoint_path = './dumped/pretrained_graph_encoder/original_CMPN_0623_1350_14000th_epoch.pkl'
+    args.checkpoint_path = './dumped/pretrained_graph_encoder/original_CMPN_0623_1350_14000th_epoch.pt'
     args.num_tasks = 1
     args.dataset_type = 'classification'
     modify_train_args(args)
