@@ -164,6 +164,8 @@ Besides functional prompts, we also support testing other ways of incorporating 
 ### Conducting experiments on a specified dataset
 We also support specifying a dataset as the input for the train/val/test sets by setting the parameters ``data_path``, ``separate_test_path`` and ``separate_val_path`` to the location of the specified train/val/test data.
 
+### Making predictions with fine-tuned models
+We now support making predictions with fine-tuned models. Use the command `python predict.py --exp_name pred --exp_id pred`. Remember to specify the `checkpoint_path` (with a `.pt` suffix) and the path for the prediction data (with the header as 'smiles').
 
 
 # 🫱🏻‍🫲🏾 Acknowledgements
