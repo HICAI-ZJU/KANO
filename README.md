@@ -112,7 +112,7 @@ Note that if you change the `data_path`, don't forget to change the correspondin
     --metric 'mae' \
     --dataset_type regression \
     --epochs 100 \
-    --num_folds 20 \
+    --num_runs 20 \
     --gpu 1 \
     --batch_size 256 \
     --seed 43 \
