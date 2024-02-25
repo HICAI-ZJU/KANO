@@ -57,8 +57,9 @@ class CMPNEncoder(nn.Module):
         self.lr = nn.Linear(self.hidden_size*3, self.hidden_size, bias=self.bias)
         
         # add & concat functional group features
-        self.cls = nn.Parameter(torch.randn(1,133), requires_grad=True)
-        self.W_i_atom_new = nn.Linear(self.atom_fdim*2, self.hidden_size, bias=self.bias)
+        if self.args.step != 'pretrain':
+            self.cls = nn.Parameter(torch.randn(1,133), requires_grad=True)
+            self.W_i_atom_new = nn.Linear(self.atom_fdim*2, self.hidden_size, bias=self.bias)
 
     def forward(self, step, mol_graph, features_batch=None) -> torch.FloatTensor:
 
