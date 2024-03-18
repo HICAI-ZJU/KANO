@@ -30,7 +30,7 @@ Carboxamide             [NX3][CX3](=[OX1])[#6]
 Amidine                 [NX3][CX3]=[NX2]
 4ammoniumIon            [NX4+]
 PrimaryAmine            [NX3;H2,H1;!$(NC=O)]
-SecondaryAmine          [NX3;H2;!$(NC=O)]
+SecondaryAmine          [NX3;H1;!$(NC=O)]
 TertiaryAmine           [NX3;!$(NC=O)]
 Azide                   [$(*-[NX2-]-[NX2+]#[NX1]),$(*-[NX2]=[NX2+]=[NX1-])]
 Azo                     [NX2]=N
